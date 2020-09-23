@@ -9,6 +9,11 @@ const loginReducer = (state = initState, action) => {
         ...state,
         user: action.userName,
       };
+    case "LOGOUT_SUCCESS":
+      return {
+        ...state,
+        user: null,
+      };
     default:
       return state;
   }

@@ -49,7 +49,7 @@ function Search(props) {
 
   return (
     <div className="container">
-      <h4>Welcome, {user}</h4>
+      <h4>Welcome, {user ? user : "stranger"}</h4>
       <form action="">
         <h4>{}</h4>
         <div className="input-field search">
