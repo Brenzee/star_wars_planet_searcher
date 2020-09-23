@@ -25,7 +25,7 @@ function Planet({ name, population }) {
     <div className="card blue-grey darken-2 col s12">
       <div className="card-content white-text">
         <h4 style={getSize(population)}>{name}</h4>
-        <p>{population}</p>
+        <p>Population: {population}</p>
         <div className="right-align">Planet</div>
       </div>
     </div>
